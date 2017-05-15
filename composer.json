@@ -1,0 +1,43 @@
+{
+    "name": "roem/media",
+    "description": "",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michael Rödel",
+            "email": "hello@mroedel.de",
+            "homepage": "http://mroedel.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/console": "~5.0",
+        "illuminate/database": "~5.0",
+        "illuminate/queue": "~5.0",
+        "illuminate/support": "~5.0",
+        "roedel/model": "dev-master",
+        "spatie/laravel-glide": "^2.2"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Roem\\Media\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Roem\\Tests\\Media\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
